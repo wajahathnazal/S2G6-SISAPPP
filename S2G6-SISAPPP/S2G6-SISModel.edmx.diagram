@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b37275b99b6844c0934d9856ef206d11" Name="Diagram1">
+        <EntityTypeShape EntityType="SISDBModel.Cours" Width="1.5" PointX="6.625" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SISDBModel.Department" Width="1.5" PointX="10" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SISDBModel.Instructor" Width="1.5" PointX="9.875" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SISDBModel.Student" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SISDBModel.StudyTerm" Width="1.5" PointX="4" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SISDBModel.Registration" Width="1.5" PointX="0.5" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SISDBModel.TeachingAssignment" Width="1.5" PointX="7" PointY="0.625" IsExpanded="true" />
+        <AssociationConnector Association="SISDBModel.FK_CourID" ManuallyRouted="false" />
+        <AssociationConnector Association="SISDBModel.FK_CourseID" ManuallyRouted="false" />
+        <AssociationConnector Association="SISDBModel.FK_DepartmentID" ManuallyRouted="false" />
+        <AssociationConnector Association="SISDBModel.FK_InstructorID" ManuallyRouted="false" />
+        <AssociationConnector Association="SISDBModel.FK_StudentID" ManuallyRouted="false" />
+        <AssociationConnector Association="SISDBModel.FK_TermID" ManuallyRouted="false" />
+        <AssociationConnector Association="SISDBModel.FK_TrmID" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
